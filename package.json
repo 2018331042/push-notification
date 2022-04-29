@@ -1,0 +1,22 @@
+{
+  "name": "pushnotificationproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Fahim",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.8.3",
+    "express": "^4.18.0",
+    "firebase-admin": "^10.1.0",
+    "mongoose": "^6.3.1",
+    "node-cron": "^3.0.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.0"
+  }
+}
